@@ -1,19 +1,36 @@
 *{
     margin: 0;
-    padding: 0px;
-    text-decoration: none;
-    list-style-type: none;
+    padding: 0px;        
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 700px;    
+    max-width: 600px;    
     margin-left: auto;
     margin-right: auto;
+    text-decoration: none;
     background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+    gap:10px;
     
 }
 
-.listas{
+body{
     border-style: solid;
-    border-color: aliceblue;
-    padding: 50px;
+    border-color: aliceblue;    
+}
+.listas{   
+    
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.pie{   
+    padding: 5px;
+    border-radius: 10px;
+}
+
+div h3{
+    text-align:  center;
+}
+
+.pie p{
+    text-align: right;
 }
